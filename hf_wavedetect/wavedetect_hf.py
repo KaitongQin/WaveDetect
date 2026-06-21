@@ -119,7 +119,7 @@ class WaveDetectPredictor:
 
         config = WaveDetectConfig(base_model_path=str(self.model_dir))
         self.model = WaveDetect(config).to(self.device)
-        state_dict = torch.load(self.model_dir / "stage2_model.bin", map_location="cpu")
+        state_dict = torch.load(self.model_dir / "wavedetect_all.bin", map_location="cpu")
         self.model.load_state_dict(clean_state_dict(state_dict), strict=True)
         self.model.eval()
 

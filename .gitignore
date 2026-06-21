@@ -7,3 +7,5 @@ output/
 
 __pycache__/
 .vscode/
+
+hf_wavedetect/
