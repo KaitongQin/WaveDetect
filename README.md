@@ -2,6 +2,8 @@
 
 ---
 
+🤗 **Hugging Face Model:** https://huggingface.co/KaitongQin/WaveDetect
+
 ## 📖 Overview
 
 As Large Language Models (LLMs) asymptotically approach human-level fluency, relying on surface-level semantic artifacts for machine-generated text (MGT) detection has become increasingly precarious. Existing detectors frequently struggle with three critical challenges: adversarial perturbations, cross-domain shifts, and the rapid temporal evolution of foundation models.
